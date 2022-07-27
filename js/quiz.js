@@ -52,6 +52,7 @@ wrongButton.addEventListener("click", ()=>{
     displayQuestion(randomQuestions);
     music.pause();
     let loseMusic = new Audio("https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/audioblocks-video-game-fail-wrong-answer-2_SbPWP3OQtDI_NWM.mp3").play();
+    loseMusic.volume = 0.2;    
     //loseMusic.onended = music.play();
 })
 const displayQuestion = function(questions){
