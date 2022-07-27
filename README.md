@@ -1,1 +1,2 @@
-# webQuiz-7-11-22
+# vocabQuizJS
+Virtual classroom based quiz game for technical vocab. 
